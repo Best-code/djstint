@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return <>
     <Head>
       <meta name="google-site-verification" content="DuBVzA_HUhu_tJFZ8IW1HVdhApi3iwjZK035sGMxMrE" />
-      <title>DJ's Custom Window Tint</title>
+      <title>DJs Custom Window Tint</title>
       <meta name="description" content="Created by Colin Maloney" />
       <link rel="icon" href="/favicon.ico" />
     </Head>

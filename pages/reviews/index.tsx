@@ -80,7 +80,7 @@ const Review: NextPage = () => {
         <div className="w-screen py-12 flex justify-center bg-black font-avenir">
             <div className=" h-full grid grid-cols-3 gap-8 justify-between">
                 {Obj.map((item) => (
-                    <ReviewContent title={item.title} value={item.value}  reviewer={item.reviewer}/>
+                    <ReviewContent key={item.title} title={item.title} value={item.value}  reviewer={item.reviewer}/>
                 ))}
             </div>
         </div>
