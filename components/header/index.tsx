@@ -54,8 +54,7 @@ export const Header = () => {
                             >
                                 <Link href={item.href}>
                                     <Tooltip title={item.name}>
-                                        <SvgIcon component={item.widget} className="w-[1.5em] h-[1.5em]"/>
-                                        {/* <FontAwesomeIcon className="hidden sm:block w-full h-full" icon={item.widget} width={60} height={60} /> */}
+                                        <SvgIcon component={item.widget} className="w-[1.75em] h-[1.75em]"/>
                                     </Tooltip>
                                 </Link>
                             </Disclosure.Button>
