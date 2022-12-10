@@ -9,7 +9,7 @@ export const AboutContent = () => {
                         <br/>
                         <br/>
                     </span>
-                    <span className="text-light text-4xl flex justify-center text-center">
+                    <span className="text-light text-4xl flex justify-center text-start text-2x1">
                         Specializing in automotive, commercial and residential tinting! Professional quality job for a friend. <br />
                         Auto motive window tinting service serving the St. Johns Country area.
                         <br />

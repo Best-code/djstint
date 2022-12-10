@@ -35,7 +35,7 @@ export const Header = () => {
     return (
         <div className="h-full w-full bg-light font-avenir">
             <div className="flex w-full h-full">
-                <div className="w-full h-full flex items-center pr-64 text-4xl">
+                <div className="w-full h-full flex items-center md:pr-64 text-4xl">
                     <Logo />
                     <div className="flex items-center mx-10 text-dark">
                         <Rating name="read-only" value={5} readOnly />

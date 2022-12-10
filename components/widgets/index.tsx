@@ -24,15 +24,15 @@ let widgets = [
 const widget = (title: string, desc: string, icon: IconProp) => {
     return (
         <div className="flex flex-col items-center justify-center text-center font-avenir">
-            <Parallax className="w-full h-full flex flex-col items-center justify-center text-center font-avenir" translateY={[-20, 20]}>
+            <Parallax className="w-full h-full py-7 flex flex-col items-center justify-center text-center font-avenir" translateY={[-20, 20]}>
                 <div className="text-offwhite border-2 rounded-lg p-2 border-light">
                     <FontAwesomeIcon icon={icon} width={50} height={50} className="text-dark" />
                 </div>
-                <div className="flex flex-col p-3">
+                <div className="flex flex-col p-3 mx-5 md:mx-0 ">
                     <span className="text-4xl font-bold">
                         {title}
                     </span>
-                    <span className="text-2xl">
+                    <span className="text-2xl text-start">
                         {desc}
                     </span>
                 </div>
@@ -45,9 +45,9 @@ export const Widgets = () => {
 
     return (
         <>
-            <div className="w-screen pt-[24em] md:pt-52 lg:pt-10  flex justify-center items-center bg-gradient-to-b from-lightgray to-gray">
+            <div className="w-screen pt-[24em] md:pt-36 lg:pt-10  flex justify-center items-center bg-gradient-to-b from-lightgray to-gray">
                 <div className="w-full md:w-3/4 h-1/2 flex items-center ">
-                    <div className="grid md:grid-cols-3 grid-cols-2 md:gap-y-12 gap-y-8">
+                    <div className="md:grid md:grid-cols-3 grid-cols- md:gap-y-12 gap-y-8">
                         {widgets.map((item) => (widget(item.title, item.desc, item.widget)))}
                     </div>
                 </div>
