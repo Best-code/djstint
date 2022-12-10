@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Header from '../components/header'
 import { ParallaxProvider } from 'react-scroll-parallax'
 import { Footer } from '../components/footer'
+import BasicSpeedDial from '../components/SpeedDial'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <>
@@ -15,6 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     </Head>
     <Header/>
     <ParallaxProvider>
+      <BasicSpeedDial/>
       <Component {...pageProps} />
     </ParallaxProvider>
     <Footer/>

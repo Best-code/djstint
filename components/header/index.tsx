@@ -16,6 +16,7 @@ import { Rating, Tooltip } from '@mui/material'
 import Image from 'next/image'
 import { Parallax } from 'react-scroll-parallax'
 import { Logo } from '../Logo'
+import BasicSpeedDial from '../SpeedDial'
 
 let navigation = [
     { name: 'Home', href: '/', widget: faHouse },
@@ -40,7 +41,7 @@ export const Header = () => {
 
                     </div>
 
-                    <Disclosure as="nav" className="hidden w-2/5 sm:flex items-center justify-center">
+                    <Disclosure as="nav" className="hidden w-2/5 xl:flex items-center justify-center">
                         <div className="grid grid-cols-5 gap-x-8">
                             {navigation.map((item) => (
                                 <Disclosure.Button

@@ -18,7 +18,7 @@ const footerClicks = (title: string, href: string) => {
 export const Footer = () => {
     return (
         <div className="p-10 bg-gradient-to-b from-white to-lightgray text-black font-avenir">
-            <div className="grid grid-cols-3 mx-64 gap-24">
+            <div className="grid grid-cols-3 sm:mx-16 md:mx-32 lg:md-64 gap-24">
                 <div className="ml-10 w-full flex flex-col justify-start">
                     {footerClickables.map((item) => (footerClicks(item.title, item.href)))}
                 </div>

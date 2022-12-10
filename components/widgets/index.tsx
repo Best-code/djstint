@@ -45,9 +45,9 @@ export const Widgets = () => {
 
     return (
         <>
-            <div className="w-screen py-10 flex justify-center items-center bg-gradient-to-b from-lightgray to-gray">
-                <div className="w-3/4 h-1/2 flex items-center ">
-                    <div className="grid grid-cols-3 gap-y-12">
+            <div className="w-screen pt-[24em] md:pt-52 lg:pt-10  flex justify-center items-center bg-gradient-to-b from-lightgray to-gray">
+                <div className="w-full md:w-3/4 h-1/2 flex items-center ">
+                    <div className="grid md:grid-cols-3 grid-cols-2 md:gap-y-12 gap-y-8">
                         {widgets.map((item) => (widget(item.title, item.desc, item.widget)))}
                     </div>
                 </div>

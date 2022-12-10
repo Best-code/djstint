@@ -33,3 +33,7 @@ a {
     background: black;
   }
 }
+
+.MuiSpeedDial-fab {
+  background-color: red;
+}

@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.4",
+    "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.17",
     "google-map-react": "^2.2.0",
     "next": "13.0.6",
