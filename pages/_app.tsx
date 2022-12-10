@@ -16,7 +16,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     </Head>
     <Header/>
     <ParallaxProvider>
-      <BasicSpeedDial/>
       <Component {...pageProps} />
     </ParallaxProvider>
     <Footer/>

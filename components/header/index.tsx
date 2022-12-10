@@ -35,12 +35,12 @@ export const Header = () => {
     return (
         <div className="h-full w-full bg-light font-avenir">
             <div className="flex w-full h-full">
-                <div className="w-full h-full flex items-center pr-64 text-4xl">
+                <div className="w-full h-full flex items-center text-4xl">
                     <Logo />
-                    <div className="flex items-center mx-10 text-dark">
+                    <div className="hidden sm:flex justify-center w-full items-center text-dark">
                         <Rating name="read-only" value={5} readOnly />
                     </div>
-
+                    <BasicSpeedDial/>
                 </div>
 
                 <Disclosure as="nav" className="hidden w-2/5 xl:flex items-center justify-center">

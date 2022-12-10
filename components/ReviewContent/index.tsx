@@ -14,7 +14,7 @@ interface review {
 }
 export const ReviewContent = (props : review) => {
   return (
-    <Card className="flex items-center flex-col px-2 bg-inherit backdrop-invert" sx={{ maxWidth: 345 }}>
+    <Card className="flex items-center flex-col px-2 bg-inherit backdrop-invert w-[80vw] sm:w-[40vw] md:w-[30vw] h-[20vh] overflow-scroll" sx={{ maxWidth: 345 }}>
       <Rating name="read-only"  value={props.value} readOnly />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
