@@ -43,7 +43,7 @@ export const Header = () => {
                     <BasicSpeedDial/>
                 </div>
 
-                <Disclosure as="nav" className="hidden w-2/5 xl:flex items-center justify-center">
+                <Disclosure as="nav" className="hidden w-2/5 lg:flex items-center justify-center">
                     <div className="grid grid-cols-4 gap-x-8">
                         {navigation.map((item) => (
                             <Disclosure.Button

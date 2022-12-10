@@ -14,7 +14,7 @@ export const ContentTwo = () => {
                             <Image fill={true} src={"/Car.png"} alt={"Hey"} />
                         </Parallax>
                     </div>
-                    <div className="flex md:flex-col flex-row sm:py-8 sm:w-2/3 w-full">
+                    <div className="flex md:flex-col flex-row sm:py-10 xs:py-12 sm:w-2/3 w-full">
                         <Parallax className="h-full w-full flex items-center flex-col" translateY={[0,30]}>
                             <span className="text-5xl py-10 w-full text-center">
                                 How It Works

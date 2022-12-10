@@ -16,7 +16,7 @@ const actions = [
 
 export default function BasicSpeedDial() {
   return (
-    <div className="xl:hidden h-[6vh]">
+    <div className="lg:hidden h-[6vh]">
     <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}>
       <SpeedDial
         ariaLabel="SpeedDial basic example"

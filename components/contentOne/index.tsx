@@ -10,7 +10,7 @@ export const ContentOne = () => {
                     <div className="w-full md:h-3/4 h-full flex md:flex-row flex-col">
                         <Parallax className="h-full w-full" speed={3}>
                             <div className="flex flex-col px-8 pt-16 lg:w-2/3 w-full">
-                                <span className="text-5xl py-20 sm:w-2/3 w-full bg-gradient-to-b invert bg-clip-text text-transparent">
+                                <span className="text-5xl py-4 sm:py-10 md:py-20 sm:w-2/3 w-full bg-gradient-to-b invert bg-clip-text text-transparent">
                                     Your Car. Cooler.
                                 </span>
                         <Parallax className="h-full w-full" speed={1}>
