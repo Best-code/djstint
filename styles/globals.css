@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span{
+  color: #2F2E2E
+}
+
 html,
 body {
   padding: 0;
@@ -13,6 +21,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'avenir-light';
 }
 
 @media (prefers-color-scheme: dark) {
