@@ -5,11 +5,13 @@ import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 import { House, Info, Mail, Star } from '@mui/icons-material';
 import { blue, red } from '@mui/material/colors';
+import Link from 'next/link';
 
 const actions = [
-  { icon: <a href="/"><House /></a>, name: "Home" },
-  { icon: <a href="/about"><Info /></a>, name: "About" },
-  { icon: <a href="/reviews"><Star /> </a>, name: "Reviews" },
+  { icon: <Link href="/"><House /></Link>, name: "Home" },
+  { icon: <Link href="/about"><Info /></Link>, name: "About" },
+  { icon: <Link href="/reviews"><Star /> </Link>, name: "Reviews" },
+  { icon: <Link href="mailto:cpmraygun@gmail.com?subject=Contact Dj's Tinting from my Website!"><Mail /></Link>, name: "Contact Us" }
 ];
 
 export default function BasicSpeedDial() {

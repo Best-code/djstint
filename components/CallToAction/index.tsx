@@ -13,7 +13,7 @@ export default function CallToAction() {
             <div className="rounded-md flex w-full ">
               <a
                 href="#"
-                className=" items-center justify-center rounded-md border border-transparent bg-dark px-5 py-3 text-base font-medium text-white hover:bg-offwhite hover:text-dark"
+                className=" items-center justify-center rounded-md border border-transparent bg-dark px-5 py-3 text-base font-medium text-white hover:bg-black"
               >
                 Get started
               </a>
