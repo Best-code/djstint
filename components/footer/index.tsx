@@ -21,7 +21,7 @@ export const Footer = () => {
     return (
         <div className="p-4 md:p-10 bg-gradient-to-b from-white to-lightgray text-black font-avenir">
             <div className="flex flex-col-reverse md:grid grid-cols-3 sm:mx-16 md:mx-32 lg:md-64 gap-24">
-                <div className="ml-10 w-full flex flex-col justify-start">
+                <div className="w-full flex flex-col justify-start">
                     {footerClickables.map((item) => (footerClicks(item.title, item.href)))}
                 </div>
                 <div className="flex flex-col">
