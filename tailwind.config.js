@@ -16,6 +16,11 @@ module.exports = {
         "gray": "#cccccc",
         "lightgray": "#afafaf",
 
+      },
+      screens:
+      {
+        'xs': '420px',
+        '2xs': '370px'
       }
     },
     fontFamily: {
