@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 let footerClickables = [
     { title: 'FAQ', href: "/faq" },
     { title: 'About Us', href: "/about" },
@@ -8,9 +10,9 @@ let footerClickables = [
 const footerClicks = (title: string, href: string) => {
     return (
         <div className="py-2">
-            <a href={href} className="underline">
+            <Link href={href} className="underline">
                 {title}
-            </a>
+            </Link>
         </div>
     )
 }

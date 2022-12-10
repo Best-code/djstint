@@ -10,20 +10,21 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import { faCarOn, faHouse, faInfo, faMailForward, faNewspaper, faPaperclip, faStar } from "@fortawesome/free-solid-svg-icons"
-import { Icon, IconProp } from "@fortawesome/fontawesome-svg-core"
-import { Rating, Tooltip } from '@mui/material'
+import {  Icon,IconProp } from "@fortawesome/fontawesome-svg-core"
+import {  Rating, SvgIcon, Tooltip } from '@mui/material'
 
 import Image from 'next/image'
 import { Parallax } from 'react-scroll-parallax'
 import { Logo } from '../Logo'
 import BasicSpeedDial from '../SpeedDial'
 import Link from 'next/link'
+import { House, Info, Mail, Star } from '@mui/icons-material'
 
 let navigation = [
-    { name: 'Home', href: '/', widget: faHouse },
-    { name: 'About', href: '/about', widget: faInfo },
-    { name: 'Reviews', href: '/reviews', widget: faStar },
-    { name: 'Contact', href: 'mailto:cpmraygun@gmail.com', widget: faMailForward },
+    { name: 'Home', href: '/', widget: House },
+    { name: 'About', href: '/about', widget: Info },
+    { name: 'Reviews', href: '/reviews', widget: Star },
+    { name: 'Contact', href: 'mailto:cpmraygun@gmail.com', widget: Mail },
 ]
 
 function classNames(...classes: any[]) {
@@ -43,7 +44,7 @@ export const Header = () => {
                 </div>
 
                 <Disclosure as="nav" className="hidden w-2/5 xl:flex items-center justify-center">
-                    <div className="grid grid-cols-5 gap-x-8">
+                    <div className="grid grid-cols-4 gap-x-8">
                         {navigation.map((item) => (
                             <Disclosure.Button
                                 key={item.name}
@@ -52,9 +53,9 @@ export const Header = () => {
                                 aria-current={'page'}
                             >
                                 <Link href={item.href}>
-                                    
                                     <Tooltip title={item.name}>
-                                        <FontAwesomeIcon className="hidden sm:block w-full h-full" icon={item.widget} width={60} height={60} />
+                                        <SvgIcon component={item.widget} className="w-[1.5em] h-[1.5em]"/>
+                                        {/* <FontAwesomeIcon className="hidden sm:block w-full h-full" icon={item.widget} width={60} height={60} /> */}
                                     </Tooltip>
                                 </Link>
                             </Disclosure.Button>
