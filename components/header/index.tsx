@@ -18,11 +18,12 @@ import { Parallax } from 'react-scroll-parallax'
 import { Logo } from '../Logo'
 import BasicSpeedDial from '../SpeedDial'
 import Link from 'next/link'
-import { House, Info, Mail, Star } from '@mui/icons-material'
+import { Collections, House, Info, Mail, PictureInPicture, Star } from '@mui/icons-material'
 
 let navigation = [
     { name: 'Home', href: '/', widget: House },
     { name: 'About', href: '/about', widget: Info },
+    { name: 'Gallery', href: '/gallery', widget: Collections },
     { name: 'Reviews', href: '/reviews', widget: Star },
     { name: 'Contact', href: 'mailto:cpmraygun@gmail.com', widget: Mail },
 ]
@@ -44,7 +45,7 @@ export const Header = () => {
                 </div>
 
                 <Disclosure as="nav" className="hidden w-2/5 lg:flex items-center justify-center">
-                    <div className="grid grid-cols-4 gap-x-8">
+                    <div className="grid grid-cols-5 gap-x-8">
                         {navigation.map((item) => (
                             <Disclosure.Button
                                 key={item.name}

@@ -3,13 +3,14 @@ import Box from '@mui/material/Box';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
-import { House, Info, Mail, Star } from '@mui/icons-material';
+import { Collections, House, Info, Mail, Star } from '@mui/icons-material';
 import { blue, red } from '@mui/material/colors';
 import Link from 'next/link';
 
 const actions = [
   { icon: <Link href="/"><House /></Link>, name: "Home" },
   { icon: <Link href="/about"><Info /></Link>, name: "About" },
+  { icon: <Link href="/gallery"><Collections /></Link>, name: "Gallery" },
   { icon: <Link href="/reviews"><Star /> </Link>, name: "Reviews" },
   { icon: <Link href="mailto:cpmraygun@gmail.com?subject=Contact Dj's Tinting from my Website!"><Mail /></Link>, name: "Contact Us" }
 ];
