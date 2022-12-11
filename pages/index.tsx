@@ -13,11 +13,11 @@ import { Logo } from '../components/Logo'
 import CallToAction from '../components/CallToAction'
 const Home: NextPage = () => {
   return (
-    <>
+    <div className="bg-gradient-to-b from-black via-dark to-light">
     <ContentOne/>
     <ContentTwo/>
     <Widgets/>
-    </>
+    </div>
   )
 }
 

@@ -2,7 +2,7 @@ import { Parallax } from "react-scroll-parallax"
 
 export default function CallToAction() {
     return (
-      <div className="bg-gradient-to-b from-gray to-white">
+      <div className="bg-inherit">
         <Parallax className="flex" speed={10}>
         <div className="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:items-center lg:justify-between lg:py-16 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-dark sm:text-4xl">

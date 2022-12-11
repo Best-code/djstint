@@ -26,13 +26,13 @@ const widget = (title: string, desc: string, widget: any) => {
         <div className="flex flex-col items-center justify-center text-center font-avenir">
             <Parallax className="w-full h-full flex flex-col items-center justify-center text-center font-avenir" translateY={[-20, 20]}>
                 <div className="text-offwhite rounded-lg p-2">
-                    <SvgIcon component={widget}  className="text-dark text-5xl" />
+                    <SvgIcon component={widget}  className="text-light text-5xl" />
                 </div>
                 <div className="flex flex-col p-3">
-                    <span className="text-4xl font-bold">
+                    <span className="text-4xl font-bold text-light">
                         {title}
                     </span>
-                    <span className="text-3xl">
+                    <span className="text-3xl text-light">
                         {desc}
                     </span>
                 </div>
@@ -45,7 +45,7 @@ export const Widgets = () => {
 
     return (
         <>
-            <div className="w-screen pt-[28em] xs:pt-[24em] sm:pt-[14em] md:pt-[24em] lg:pt-[14em]  flex justify-center items-center bg-gradient-to-b from-lightgray to-gray">
+            <div className="w-screen pt-[28em] xs:pt-[24em] sm:pt-[14em] md:pt-[24em] lg:pt-[14em]  flex justify-center items-center bg-inherit">
                 <div className="w-full md:w-3/4 h-1/2 flex items-center ">
                     <div className="grid md:grid-cols-3 xs:grid-cols-2 grid-cols-1 md:gap-y-12 gap-y-16">
                         {widgets.map((item) => (widget(item.title, item.desc, item.widget)))}

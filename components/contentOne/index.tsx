@@ -5,7 +5,7 @@ import BasicSpeedDial from "../SpeedDial"
 export const ContentOne = () => {
     return (
         <>
-            <div className="w-screen md:h-[40vw] h-[80vh] flex flex-col md:flex-row justify-center bg-gradient-to-b from-black via-dark to-gray font-avenir">
+            <div className="w-screen md:h-[40vw] h-[80vh] flex flex-col md:flex-row justify-center bg-inherit font-avenir">
                 <div className="w-3/4 h-full">
                     <div className="w-full md:h-3/4 h-full flex md:flex-row flex-col">
                         <Parallax className="h-full w-full" speed={3}>
