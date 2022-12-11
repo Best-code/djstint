@@ -30,7 +30,6 @@ export default function BasicSpeedDial() {
             key={action.name as unknown as React.Key}
             icon={action.icon}
             tooltipTitle={action.name}
-            className="bg-red-100"
           />
         ))}
       </SpeedDial>

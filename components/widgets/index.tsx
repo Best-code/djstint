@@ -1,38 +1,38 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-import { faC, faCheck, faCrown, faDice, faFastForward, faShield, faSlash } from "@fortawesome/free-solid-svg-icons"
+import { faC, faCheck, faCrown, faDice, faFastForward, faFire, faGlasses, faShield, faSlash, faUserNinja } from "@fortawesome/free-solid-svg-icons"
 import { Icon, IconProp } from "@fortawesome/fontawesome-svg-core"
 import { Parallax } from "react-scroll-parallax"
 import CallToAction from "../CallToAction"
+import { faSun } from "@fortawesome/free-regular-svg-icons"
+import { SvgIcon } from "@mui/material"
+import { CleaningServicesOutlined, Fireplace, Lock, Looks, LooksTwoTwoTone, RollerShadesTwoTone, SevereCold, Shield, WbShadeSharp, WbSunny } from "@mui/icons-material"
 
 let widgets = [
-    { title: 'Heat Protection', desc: 'Protects you from the dangerous heat of the sun', widget: faCheck },
-    { title: 'UV Protection', desc: 'Protects you from the dangerous UV Rays of the sun', widget: faShield },
-    { title: 'Cooler Looking', desc: 'Protects you from the dangers of getting no bitches', widget: faDice },
-    { title: 'More Bitches', desc: 'Protects you from the dangers of getting no bitches', widget: faCrown },
+    { title: 'UV Protection', desc: 'Protects you from 99% of UV Rays', widget: Shield },
+    { title: 'Heat Countermeasure', desc: 'Protects your car interior the dangerous heat of the sun', widget: SevereCold },
+    { title: 'More Privacy', desc: `A one way opaque film, you can see out but they can't see in`, widget: RollerShadesTwoTone },
+    { title: 'Improved Security', desc: 'Increase the strength of your windows preventing shattering', widget: Lock },
     {
-        title: 'Faster Downhill', desc: `Due to the added weight of all the bitches in the car,
-                                        itll roll faster down hill`, widget: faFastForward
+        title: 'Fight Fading', desc: `Protect your interior from sun damage`, widget: WbSunny
     },
     {
-        title: 'Slower Uphill', desc: `Due to the added weight of all the bitches in the car, 
-                                            itll be just slow enough for everyone to notice 
-                                            all your bitches`, widget: faSlash
+        title: 'Clean Looking', desc: `Tinting your car is a great style points`, widget: CleaningServicesOutlined
     },
 ]
 
-const widget = (title: string, desc: string, icon: IconProp) => {
+const widget = (title: string, desc: string, widget: any) => {
     return (
         <div className="flex flex-col items-center justify-center text-center font-avenir">
             <Parallax className="w-full h-full flex flex-col items-center justify-center text-center font-avenir" translateY={[-20, 20]}>
-                <div className="text-offwhite border-2 rounded-lg p-2 border-light">
-                    <FontAwesomeIcon icon={icon} width={50} height={50} className="text-dark" />
+                <div className="text-offwhite rounded-lg p-2">
+                    <SvgIcon component={widget}  className="text-dark text-5xl" />
                 </div>
                 <div className="flex flex-col p-3">
                     <span className="text-4xl font-bold">
                         {title}
                     </span>
-                    <span className="text-2xl">
+                    <span className="text-3xl">
                         {desc}
                     </span>
                 </div>
