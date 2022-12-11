@@ -3,7 +3,7 @@ import Link from "next/link"
 let footerClickables = [
     { title: 'Home', href: "/" },
     { title: 'About Us', href: "/about" },
-    { title: 'Contact Us', href: "@mailto:cpmraygun@gmail.com" },
+    { title: 'Contact Us', href: "mailto:cpmraygun@gmail.com?subject=Here is the custom subject line" },
     { title: 'Expert Reviews', href: "/reviews" }
 ]
 

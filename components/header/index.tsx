@@ -25,7 +25,7 @@ let navigation = [
     { name: 'About', href: '/about', widget: Info },
     { name: 'Gallery', href: '/gallery', widget: Collections },
     { name: 'Reviews', href: '/reviews', widget: Star },
-    { name: 'Contact', href: 'mailto:cpmraygun@gmail.com', widget: Mail },
+    { name: 'Contact', href: 'mailto:cpmraygun@gmail.com?subject=Here is the custom subject line', widget: Mail },
 ]
 
 function classNames(...classes: any[]) {
