@@ -6,7 +6,7 @@ const Gallery: NextPage = ({ feed }: any) => {
     const images = feed.data
     return (
 
-        <div className="w-screen py-12 flex justify-center bg-black font-avenir">
+        <div className="w-screen py-12 flex justify-center bg-gradient-to-b from-black via-dark to-light font-avenir">
             <div className=" h-fit grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-8 sm:justify-between">
                 {images.map((image: any) =>
                     [
