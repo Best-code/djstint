@@ -29,7 +29,7 @@ export const Footer = () => {
                         About Us
                     </div>
                     <div className="text-md py-2">
-                    Specializing in automotive, commercial and residential tinting! Professional quality job for a friend
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique temporibus corrupti eius recusandae quis accusamus molestias perspiciatis vero dicta. In saepe optio dignissimos necessitatibus et.
 
                     </div>
                 </div>

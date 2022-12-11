@@ -11,22 +11,22 @@ export const ContentTwo = () => {
                 <div className="w-full h-3/4 sm:flex ">
                     <div className="h-full w-full md:pt-12 xl:pt-0 relative">
                         <Parallax className="xl:h-[50vh] h-[40vh] w-full" translateY={[-60,30]}>
-                            <Image fill={true} src={"/Car.png"} alt={"Hey"} />
+                            <Image fill={true} src={"/inserthere.png"} alt={"Hey"} />
                         </Parallax>
                     </div>
                     <div className="flex md:flex-col flex-row sm:py-10 xs:py-12 sm:w-2/3 w-full">
                         <Parallax className="h-full w-full flex items-center flex-col" translateY={[0,30]}>
                             <span className="text-5xl py-10 w-full text-center">
-                                How It Works
+                                Lorem, ipsum dolor.
                             </span>
                                 <div className="sm:flex px-2 w-full sm:flex-col flex flex-row justify-center items-center text-start text-2xl">
                                     <span className="w-full">
-                                        polyester film with a scratch-resistant coating
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, architecto?
                                     </span>
                                     <FontAwesomeIcon className="hidden sm:block m-3 text-dark" icon={faArrowAltCircleDown} width={40} height={40} />
                                     <FontAwesomeIcon className="block sm:hidden w-1/3 text-dark" icon={faArrowAltCircleRight} width={40} height={40} />
                                     <span className="w-full">
-                                        allow some light rays to pass through while absorbing or reflecting others.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nemo?
                                     </span>
                                 </div>
                         </Parallax>

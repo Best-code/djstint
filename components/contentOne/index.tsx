@@ -11,18 +11,18 @@ export const ContentOne = () => {
                         <Parallax className="h-full w-full" speed={3}>
                             <div className="flex flex-col px-8 pt-16 lg:w-2/3 w-full">
                                 <span className="text-5xl py-4 sm:py-10 md:py-20 sm:w-2/3 w-full bg-gradient-to-b invert bg-clip-text text-transparent">
-                                    Your Car. Cooler.
+                                    Lorem, ipsum dolor.
                                 </span>
                         <Parallax className="h-full w-full" speed={1}>
                                     <span className="text-2xl text-white">
-                                        Pimp your ride with some tint wrap on them windows
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, expedita!
                                     </span>
                         </Parallax>
                             </div>
                         </Parallax>
                         <div className="h-full w-screen xs:w-full relative">
                         <Parallax className="hidden 2xs:block h-full w-full" speed={-10}>
-                                <Image  src={"/carthree.png"} fill sizes="50vw" alt={"Corvette Tinted"} />
+                                <Image  src={"/inserthere.png"} fill sizes="50vw" alt={"Corvette Tinted"} />
                         </Parallax>
                         </div>
                     </div>
