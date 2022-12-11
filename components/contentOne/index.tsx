@@ -15,7 +15,7 @@ export const ContentOne = () => {
                                 </span>
                         <Parallax className="h-full w-full" speed={1}>
                                     <span className="text-2xl text-white">
-                                        Pimp your ride with some tint wrap on them windows
+                                        Upgrade your ride with some UV tint wrap on the windows
                                     </span>
                         </Parallax>
                             </div>

@@ -17,7 +17,7 @@ let widgets = [
         title: 'Fight Fading', desc: `Protect your interior from sun damage`, widget: WbSunny
     },
     {
-        title: 'Clean Looking', desc: `Tinting your car is a great style points`, widget: CleaningServicesOutlined
+        title: 'Clean Looking', desc: `Tinting your car is a great style choice`, widget: CleaningServicesOutlined
     },
 ]
 

@@ -10,8 +10,8 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import { faCarOn, faHouse, faInfo, faMailForward, faNewspaper, faPaperclip, faStar } from "@fortawesome/free-solid-svg-icons"
-import {  Icon,IconProp } from "@fortawesome/fontawesome-svg-core"
-import {  Rating, SvgIcon, Tooltip } from '@mui/material'
+import { Icon, IconProp } from "@fortawesome/fontawesome-svg-core"
+import { Rating, SvgIcon, Tooltip } from '@mui/material'
 
 import Image from 'next/image'
 import { Parallax } from 'react-scroll-parallax'
@@ -37,11 +37,13 @@ export const Header = () => {
         <div className="h-full w-full bg-light font-avenir">
             <div className="flex w-full h-full">
                 <div className="w-full h-full flex items-center text-4xl">
-                    <Logo />
+                    <Link href="/" className="w-full h-full">
+                        <Logo />
+                    </Link>
                     <div className="hidden sm:flex justify-center w-full items-center text-dark">
                         <Rating name="read-only" value={5} readOnly />
                     </div>
-                    <BasicSpeedDial/>
+                    <BasicSpeedDial />
                 </div>
 
                 <Disclosure as="nav" className="hidden w-2/5 lg:flex items-center justify-center">
@@ -55,7 +57,7 @@ export const Header = () => {
                             >
                                 <Link href={item.href}>
                                     <Tooltip title={item.name}>
-                                        <SvgIcon component={item.widget} className="w-[1.75em] h-[1.75em]"/>
+                                        <SvgIcon component={item.widget} className="w-[1.75em] h-[1.75em]" />
                                     </Tooltip>
                                 </Link>
                             </Disclosure.Button>
