@@ -77,8 +77,9 @@ const Obj =
 
 const Review: NextPage = () => {
     return (
-        <div className="w-screen py-12 flex justify-center bg-gradient-to-b from-black via-dark to-white font-avenir">
-            <div className=" h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 justify-between">
+        <div className="w-screen py-12 px-12 justify-center bg-gradient-to-b from-black via-dark to-white font-avenir">
+            {/* <div className=" h-full px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 justify-between"> */}
+            <div className=" h-full flex flex-row flex-wrap w-full justify-between">
                 {Obj.sort((a,b) => b.title.length - a.title.length).map((item) => (
                     <ReviewContent key={item.title} title={item.title} value={item.value}  reviewer={item.reviewer}/>
                 ))}

@@ -14,8 +14,8 @@ interface review {
 }
 export const ReviewContent = (props : review) => {
   return (
-    <Card className="flex items-center flex-col px-2 w-[80vw] h-fit" sx={{ maxWidth: 345 }}>
-      <Rating name="read-only"  value={props.value} readOnly />
+    <Card className="flex items-center flex-col px-2 w-full lg:w-[49%] mb-12 h-fit">
+      <Rating name="read-only" className="pt-4" value={props.value} readOnly />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {props.reviewer}
