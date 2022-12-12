@@ -25,10 +25,10 @@ const widget = (title: string, desc: string, widget: any) => {
     return (
         <div className="flex flex-col items-center justify-center text-center font-avenir">
             <Parallax className="w-full h-full flex flex-col items-center justify-center text-center font-avenir" translateY={[-20, 20]}>
-                <div className="text-offwhite rounded-lg p-2">
+                <div className="text-offwhite rounded-lg 2xs:p-2">
                     <SvgIcon component={widget}  className="text-light text-5xl" />
                 </div>
-                <div className="flex flex-col p-3">
+                <div className="flex flex-col 2xs:p-3">
                     <span className="text-4xl font-bold text-light">
                         {title}
                     </span>
@@ -45,9 +45,9 @@ export const Widgets = () => {
 
     return (
         <>
-            <div className="w-screen pt-[28em] xs:pt-[24em] sm:pt-[14em] md:pt-[24em] lg:pt-[14em]  flex justify-center items-center bg-inherit">
+            <div className="w-screen h-fit pt-32 2xs:24 flex justify-center items-center bg-inherit">
                 <div className="w-full md:w-3/4 h-1/2 flex items-center ">
-                    <div className="grid md:grid-cols-3 xs:grid-cols-2 grid-cols-1 md:gap-y-12 gap-y-16">
+                    <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-y-12 gap-y-16">
                         {widgets.map((item) => (widget(item.title, item.desc, item.widget)))}
                     </div>
                 </div>

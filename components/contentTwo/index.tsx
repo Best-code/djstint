@@ -6,26 +6,26 @@ import CallToAction from "../CallToAction"
 
 export const ContentTwo = () => {
     return (
-        <div className="w-screen md:h-[20vw] h-[60vw] flex justify-center bg-inherit text-light font-avenir pb-2">
+        <div className="w-screen h-fit flex justify-center bg-inherit text-light font-avenir sm:py-24">
             <div className="w-full flex items-center">
-                <div className="w-full h-3/4 sm:flex ">
-                    <div className="h-full w-full md:pt-12 xl:pt-0 relative">
-                        <Parallax className="xl:h-[50vh] h-[40vh] w-full" translateY={[-60,30]}>
-                            <Image fill={true} src={"/Car.png"} alt={"Hey"} />
+                <div className="w-full md:flex xl:flex-row flex-col items-center">
+                    <div className="w-full h-[40vh] pt-24 sm:pt-32 md:py-64 md:px-12 lg:py-96 xl:pt-0 relative">
+                        <Parallax className="h-[40vh] xs:h-[50vh] sm:h-[60vh] md:h-[60vh] lg:h-[90vh] max-w-3xl lg:max-w-5xl overflow-hidden" translateY={[-60,0]}>
+                            <Image fill={true} src={"/coupe.png"} className="rotate-[25deg]" alt={"Tinted Bmw Coupe"} />
                         </Parallax>
                     </div>
-                    <div className="flex md:flex-col flex-row sm:py-10 xs:py-12 sm:w-2/3 w-full">
-                        <Parallax className="h-full w-full flex items-center flex-col" translateY={[0,30]}>
-                            <span className="text-5xl py-10 w-full text-center text-light">
+                    <div className="flex md:flex-col flex-row md:w-2/3 w-full pt-16 sm:pt-32 md:pt-16 lg:pt-0">
+                        <Parallax className=" w-full flex items-center flex-col" speed={2}>
+                            <span className="text-5xl w-full text-center  text-light">
                                 How It Works
                             </span>
-                                <div className="sm:flex px-2 w-full sm:flex-col flex flex-row justify-center items-center text-start text-2xl">
-                                    <span className="w-full text-light">
+                                <div className="sm:flex px-2 w-full md:flex-col flex flex-row justify-center items-center text-start text-xl">
+                                    <span className="w-full text-light md:text-center">
                                         polyester film with a scratch-resistant coating
                                     </span>
-                                    <FontAwesomeIcon className="hidden sm:block m-3 text-light" icon={faArrowAltCircleDown} width={40} height={40} />
-                                    <FontAwesomeIcon className="block sm:hidden w-1/3 text-light" icon={faArrowAltCircleRight} width={40} height={40} />
-                                    <span className="w-full text-light">
+                                    <FontAwesomeIcon className="hidden md:block m-3 text-light" icon={faArrowAltCircleDown} width={40} height={40} />
+                                    <FontAwesomeIcon className="block md:hidden w-1/3 text-light" icon={faArrowAltCircleRight} width={40} height={40} />
+                                    <span className="w-full text-light md:text-center">
                                         allow some light rays to pass through while absorbing or reflecting others.
                                     </span>
                                 </div>

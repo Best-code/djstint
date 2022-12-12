@@ -1,4 +1,5 @@
 import { Parallax } from "react-scroll-parallax"
+import { mailto } from "../MailTo"
 
 export default function CallToAction() {
     return (
@@ -12,7 +13,7 @@ export default function CallToAction() {
           <div className="mt-4 lg:mt-0 lg:flex-shrink-0">
             <div className="rounded-md flex w-full ">
               <a
-                href="#"
+                href={mailto}
                 className=" items-center justify-center rounded-md border border-transparent bg-dark px-5 py-3 text-base font-medium text-white hover:bg-black"
               >
                 Get started

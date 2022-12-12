@@ -40,19 +40,19 @@ export const Header = () => {
                     <Link href="/" className="w-full h-full">
                         <Logo />
                     </Link>
-                    <div className="hidden sm:flex justify-center w-full items-center text-dark">
+                    <div className="hidden md:flex justify-center w-full items-center text-dark">
                         <Rating name="read-only" value={5} readOnly />
                     </div>
                     <BasicSpeedDial />
                 </div>
 
-                <Disclosure as="nav" className="hidden w-2/5 lg:flex items-center justify-center">
+                <Disclosure as="nav" className="hidden w-2/5 px-4 lg:flex items-center justify-center">
                     <div className="grid grid-cols-5 gap-x-8">
                         {navigation.map((item) => (
                             <Disclosure.Button
                                 key={item.name}
 
-                                className='text-dark text-center hover:text-black block px-3 py-2 rounded-md text-base font-medium'
+                                className='text-dark text-center hover:text-black block py-2 rounded-md text-base font-medium'
                                 aria-current={'page'}
                             >
                                 <Link href={item.href}>
