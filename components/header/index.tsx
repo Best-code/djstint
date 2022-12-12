@@ -19,13 +19,14 @@ import { Logo } from '../Logo'
 import BasicSpeedDial from '../SpeedDial'
 import Link from 'next/link'
 import { Collections, House, Info, Mail, PictureInPicture, Star } from '@mui/icons-material'
+import { mailto } from '../MailTo'
 
 let navigation = [
     { name: 'Home', href: '/', widget: House },
     { name: 'About', href: '/about', widget: Info },
     { name: 'Gallery', href: '/gallery', widget: Collections },
     { name: 'Reviews', href: '/reviews', widget: Star },
-    { name: 'Contact', href: 'mailto:cpmraygun@gmail.com', widget: Mail },
+    { name: 'Contact', href: mailto, widget: Mail },
 ]
 
 function classNames(...classes: any[]) {

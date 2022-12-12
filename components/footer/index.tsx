@@ -1,9 +1,10 @@
 import Link from "next/link"
+import { mailto } from "../MailTo"
 
 let footerClickables = [
     { title: 'Home', href: "/" },
     { title: 'About Us', href: "/about" },
-    { title: 'Contact Us', href: "@mailto:cpmraygun@gmail.com" },
+    { title: 'Contact Us', href: mailto },
     { title: 'Expert Reviews', href: "/reviews" }
 ]
 
