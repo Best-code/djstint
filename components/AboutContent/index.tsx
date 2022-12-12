@@ -3,7 +3,7 @@ import { FaqContent } from "../FaqContent"
 export const AboutContent = () => {
 
     return (
-        <div className="bg-gradient-to-b from-black via-dark to-white">
+        <div className="bg-inherit">
         <div className="w-screen py-12 flex justify-center font-avenir">
             <div className="w-3/4 h-full">
                 <div className="flex w-full h-full flex-col justify-center items-center py-8">

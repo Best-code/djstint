@@ -14,7 +14,8 @@ export const ContentOne = () => {
                                     Your Car. Cooler.
                                 </span>
                         <Parallax className="h-full w-2/3" speed={1}>
-                                    <span className="text-2xl text-white">
+                                    {/* <span className="text-2xl text-white"> */}
+                                <span className="text-2xl py-4 sm:py-10 md:py-20 sm:w-2/3 w-full bg-gradient-to-b invert bg-clip-text text-transparent">
                                         Upgrade your ride with some UV tint wrap on the windows
                                     </span>
                         </Parallax>

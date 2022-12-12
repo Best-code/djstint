@@ -29,11 +29,11 @@ export const FaqContent = () => {
                         <br />
                     </span>
                     {questions.map((qna) =>
-                            <div className="bg-light flex flex-col p-12">
-                                <span className="text-4xl font-bold h-fit pb-2">
+                            <div className="flex flex-col p-12">
+                                <span className="text-5xl font-bold h-fit pb-2 text-black">
                                     Question: Lorem ipsum dolor sit amet.
                                 </span>
-                                <span className="text-3xl">
+                                <span className="text-4xl text-black">
                                     <b>Answer</b>: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptate obcaecati laborum modi dicta earum animi recusandae culpa amet ut.
                                 </span>
                             </div>
