@@ -53,7 +53,7 @@ export const Header = () => {
                             <Disclosure.Button
                                 key={item.name}
 
-                                className='text-dark text-center hover:text-black block py-2 rounded-md text-base font-medium'
+                                className='text-dark hover:scale-125 hover:-translate-y-2 transition text-center hover:text-black block py-2 rounded-md text-base font-medium'
                                 aria-current={'page'}
                             >
                                 <Link href={item.href}>

@@ -10,8 +10,8 @@ export const ContentTwo = () => {
             <div className="w-full flex items-center">
                 <div className="w-full md:flex xl:flex-row flex-col items-center">
                     <div className="w-full h-[40vh] pt-24 sm:pt-32 md:py-64 md:px-12 lg:py-96 xl:pt-0 relative">
-                        <Parallax className="h-[40vh] xs:h-[50vh] sm:h-[60vh] md:h-[60vh] lg:h-[90vh] max-w-3xl lg:max-w-5xl overflow-hidden" translateY={[-60,0]}>
-                            <Image fill={true} src={"/coupe.png"} className="rotate-[25deg]" alt={"Tinted Bmw Coupe"} />
+                        <Parallax className="h-[40vh] xs:h-[50vh] sm:h-[60vh] md:h-[60vh] lg:h-[90vh] max-w3xl lg:max-5xl overflow-hidden" translateY={[-60,0]}>
+                            <Image fill={true} src={"/coupe.png"} className="rotate-[25deg] hover:scale-110 transition" alt={"Tinted Bmw Coupe"} />
                         </Parallax>
                     </div>
                     <div className="flex md:flex-col flex-row md:w-2/3 w-full pt-16 sm:pt-32 md:pt-16 lg:pt-0">

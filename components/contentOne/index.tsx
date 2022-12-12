@@ -23,7 +23,7 @@ export const ContentOne = () => {
                         </Parallax>
                         <div className="hidden 2xs:flex w-screen scale-x-[-1] xs:w-full pt-32 xl:pt-0 relative">
                         <Parallax className="flex items-center h-[40vh] lg:h-[60vh] w-full max-w-xl md:max-w-4xl" speed={-10}>
-                                <Image  src={"/stang.png"} className="" fill sizes="100vw" alt={"Corvette Tinted"} />
+                                <Image  src={"/stang.png"} className="hover:scale-125 transition" fill sizes="100vw" alt={"Corvette Tinted"} />
                         </Parallax>
                         </div>
                     </div>

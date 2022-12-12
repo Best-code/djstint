@@ -23,7 +23,7 @@ let widgets = [
 
 const widget = (title: string, desc: string, widget: any) => {
     return (
-        <div className="flex flex-col items-center justify-center text-center font-avenir">
+        <div className="flex px-4 flex-col items-center justify-center text-center font-avenir hover:scale-110 transition delay-0 md:hover:-translate-y-4 lg:hover:-translate-y-12">
             <Parallax className="w-full h-full flex flex-col items-center justify-center text-center font-avenir" translateY={[-20, 20]}>
                 <div className="text-offwhite rounded-lg 2xs:p-2">
                     <SvgIcon component={widget}  className="text-light text-5xl" />
@@ -46,7 +46,7 @@ export const Widgets = () => {
     return (
         <>
             <div className="w-screen h-fit pt-32 2xs:24 flex justify-center items-center bg-inherit">
-                <div className="w-full md:w-3/4 h-1/2 flex items-center ">
+                <div className="w-full md:w-4/5 h-1/2 flex items-center ">
                     <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-y-12 gap-y-16">
                         {widgets.map((item) => (widget(item.title, item.desc, item.widget)))}
                     </div>

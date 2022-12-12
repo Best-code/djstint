@@ -6,13 +6,14 @@ import SpeedDialAction from '@mui/material/SpeedDialAction';
 import { Collections, House, Info, Mail, Star } from '@mui/icons-material';
 import { blue, red } from '@mui/material/colors';
 import Link from 'next/link';
+import { mailto } from '../MailTo';
 
 const actions = [
   { icon: <Link href="/"><House /></Link>, name: "Home" },
   { icon: <Link href="/about"><Info /></Link>, name: "About" },
   { icon: <Link href="/gallery"><Collections /></Link>, name: "Gallery" },
   { icon: <Link href="/reviews"><Star /> </Link>, name: "Reviews" },
-  { icon: <Link href="mailto:cpmraygun@gmail.com?subject=Contact Dj's Tinting from my Website!"><Mail /></Link>, name: "Contact Us" }
+  { icon: <Link href={mailto}><Mail /></Link>, name: "Contact Us" }
 ];
 
 export default function BasicSpeedDial() {
@@ -27,6 +28,7 @@ export default function BasicSpeedDial() {
       >
         {actions.map((action) => (
           <SpeedDialAction
+          className="backdrop-invert hover:scale-110 hover:-translate-y-2 transition"
             key={action.name as unknown as React.Key}
             icon={action.icon}
             tooltipTitle={action.name}
