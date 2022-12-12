@@ -9,8 +9,8 @@ export const ContentTwo = () => {
         <div className="w-screen h-fit flex justify-center bg-inherit text-light font-avenir sm:py-24">
             <div className="w-full flex items-center">
                 <div className="w-full md:flex xl:flex-row flex-col items-center">
-                    <div className="w-full h-[40vh] pt-24 sm:pt-32 md:py-64 md:px-12 lg:py-96 xl:pt-0 relative">
-                        <Parallax className="h-[40vh] xs:h-[50vh] sm:h-[60vh] md:h-[60vh] lg:h-[90vh] max-w3xl lg:max-5xl overflow-hidden" translateY={[-60,0]}>
+                    <div className="w-full h-[40vh] pt-24 sm:pt-32 md:py-64  lg:py-96 xl:pt-0 relative">
+                        <Parallax className="h-[40vh] xs:h-[50vh] sm:h-[60vh] md:h-[60vh] lg:h-[70vh] max-w-3xl px-2 lg:max-5xl overflow-hidden" translateY={[-60,10]}>
                             <Image fill={true} src={"/coupe.png"} className="rotate-[25deg] hover:scale-110 transition" alt={"Tinted Bmw Coupe"} />
                         </Parallax>
                     </div>

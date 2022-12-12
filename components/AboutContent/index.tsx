@@ -13,8 +13,7 @@ export const AboutContent = () => {
                         <br/>
                     </span>
                     <span className="text-light text-4xl flex justify-center text-center">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita culpa, maxime vitae placeat corrupti neque soluta quo ullam voluptatem nihil obcaecati et provident adipisci harum.<br/>
-                        Auto motive window tinting service serving the St. Johns Country area.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolore velit? Dolorem laudantium alias porro aliquam quod natus voluptates repellat!
                         <br />
                         <br />
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloribus!

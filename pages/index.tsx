@@ -11,6 +11,7 @@ import { Footer } from '../components/footer'
 import Header from '../components/header'
 import { Logo } from '../components/Logo'
 import CallToAction from '../components/CallToAction'
+
 const Home: NextPage = () => {
   return (
     <div className="bg-gradient-to-b from-black via-dark to-light">
