@@ -18,13 +18,13 @@ const Gallery: NextPage = ({ feed }: any) => {
                 {displayEntireFeed && images.map((image: any) =>
                     [
                         <div key={image.id}>
-                            <img src={image.media_url} className="hover:scale-125" alt={image.caption} /> 
+                            <img src={image.media_url} className="hover:scale-125 transition duration-100 hover:z-10 z-0" alt={image.caption} /> 
                         </div>
                     ])}
                    {!displayEntireFeed && restrictedImages.map((_,i)=>
                     [
                         <div key={images[i].id}>
-                            <img src={images[i].media_url} className="hover:scale-125" alt={images[i].caption} /> 
+                            <img src={images[i].media_url} className="hover:scale-125 scale-100 duration-100" alt={images[i].caption} /> 
                         </div>
                     ])} 
             </div>
