@@ -20,7 +20,8 @@
     "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scroll-parallax": "^3.3.2"
+    "react-scroll-parallax": "^3.3.2",
+    "sharp": "^0.31.2"
   },
   "devDependencies": {
     "@types/google-map-react": "^2.1.7",
