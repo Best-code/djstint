@@ -1,10 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-import { faC, faCheck, faCrown, faDice, faFastForward, faFire, faGlasses, faShield, faSlash, faUserNinja } from "@fortawesome/free-solid-svg-icons"
-import { Icon, IconProp } from "@fortawesome/fontawesome-svg-core"
 import { Parallax } from "react-scroll-parallax"
 import CallToAction from "../CallToAction"
-import { faSun } from "@fortawesome/free-regular-svg-icons"
 import { SvgIcon } from "@mui/material"
 import { CleaningServicesOutlined, Fireplace, Lock, Looks, LooksTwoTwoTone, RollerShadesTwoTone, SevereCold, Shield, WbShadeSharp, WbSunny } from "@mui/icons-material"
 

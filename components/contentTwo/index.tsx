@@ -2,7 +2,6 @@ import { faArrowAltCircleDown, faArrowAltCircleRight } from "@fortawesome/free-s
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
 import { Parallax } from "react-scroll-parallax"
-import CallToAction from "../CallToAction"
 
 export const ContentTwo = () => {
     return (

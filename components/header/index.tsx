@@ -1,20 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-// import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faAtom, faFlask } from '@fortawesome/free-solid-svg-icons'
-// import { signIn, signOut, useSession } from "next-auth/react"
-// import Link from 'next/link'
-// import Waves from "../waves"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-import { faCarOn, faHouse, faInfo, faMailForward, faNewspaper, faPaperclip, faStar } from "@fortawesome/free-solid-svg-icons"
-import { Icon, IconProp } from "@fortawesome/fontawesome-svg-core"
 import { Rating, SvgIcon, Tooltip } from '@mui/material'
 
-import Image from 'next/image'
-import { Parallax } from 'react-scroll-parallax'
 import { Logo } from '../Logo'
 import BasicSpeedDial from '../SpeedDial'
 import Link from 'next/link'

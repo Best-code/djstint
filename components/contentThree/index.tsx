@@ -1,5 +1,3 @@
-import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
 import { Parallax } from 'react-scroll-parallax'
 

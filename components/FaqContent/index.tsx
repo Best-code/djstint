@@ -29,7 +29,7 @@ export const FaqContent = () => {
                         <br />
                     </span>
                     {questions.map((qna) =>
-                            <div className="flex flex-col p-12">
+                            <div className="flex flex-col p-12" key={qna.question}>
                                 <span className="text-5xl font-bold h-fit pb-2 text-black">
                                     Question: Lorem ipsum dolor sit amet.
                                 </span>

@@ -1,5 +1,3 @@
-import { ClassNames } from "@emotion/react";
-import { faObjectGroup } from "@fortawesome/free-solid-svg-icons";
 import { NextPage } from "next"
 import { ReviewContent } from "../../components/ReviewContent"
 
