@@ -17,8 +17,8 @@ const Gallery: NextPage = ({ feed }: any) => {
             <div className=" h-fit grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-8 sm:justify-between">
                 {displayEntireFeed && images.map((image: any) =>
                     [
-                        <div key={image.id}>
-                            <img src={image.media_url} className="hover:scale-125 transition duration-100 hover:z-10 z-0" alt={image.caption} /> 
+                        <div key={image.id} className="overflow-hidden">
+                            <img src={image.media_url} className="hover:scale-125 transition duration-100 hover:z-10 z-0 h-[70vh]" alt={image.caption} /> 
                         </div>
                     ])}
                    {!displayEntireFeed && restrictedImages.map((_,i)=>

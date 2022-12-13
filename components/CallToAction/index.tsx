@@ -3,7 +3,7 @@ import { mailto } from "../MailTo"
 
 export default function CallToAction() {
   return (
-    <Parallax className="w-full flex justify-center" speed={10}>
+    <Parallax className="w-full flex justify-center overflow-hidden" speed={10}>
       <div className="w-full flex max-w-7xl flex-col py-24 px-4 sm:px-6 lg:justify-between lg:py-16 lg:px-8 hover:scale-125 hover:-translate-y-12 transition delay-0">
         <h2 className="text-3xl sm:text-4xl flex flex-col text-center font-bold tracking-tight text-dark">
           <span className="pt-12 sm:pt-0">Ready to dive in?</span>

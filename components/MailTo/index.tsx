@@ -1,5 +1,5 @@
 const email = `cpmraygun@gmail.com`
-const subject = "Dj's Custom Tint Shop Quote Request" 
+const subject = "Dj's Custom Tint Shop: Quote Request" 
 
 const body = `Hello, I would like to have my windows tinted please.
 %0a
