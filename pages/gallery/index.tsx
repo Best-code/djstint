@@ -3,6 +3,7 @@ import { AnyRecord } from "dns"
 import { NextPage } from "next"
 import Image from "next/image"
 
+
 const Gallery: NextPage = ({ feed }: any) => {
     const images = feed.data
 
